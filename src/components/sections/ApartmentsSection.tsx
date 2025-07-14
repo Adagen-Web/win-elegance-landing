@@ -1,0 +1,141 @@
+import { Card, CardContent } from "../ui/card";
+import { Badge } from "../ui/badge";
+import fitnessCenter from "../../assets/fitness-center.jpg";
+
+export const ApartmentsSection = () => {
+  const apartments = [
+    {
+      type: "2 Dormitórios",
+      area: "78m²",
+      features: ["Sala ampla", "Varanda gourmet", "Suíte master", "Acabamento premium"],
+      highlight: "Ideal para casais"
+    },
+    {
+      type: "3 Dormitórios",
+      area: "105m²",
+      features: ["Living integrado", "Lavabo", "2 Suítes", "Área de serviço"],
+      highlight: "Perfeito para famílias"
+    },
+    {
+      type: "4 Dormitórios",
+      area: "142m²",
+      features: ["Ambiente gourmet", "Home office", "3 Suítes", "Closet master"],
+      highlight: "Máximo conforto"
+    }
+  ];
+
+  return (
+    <section id="ambientes" className="py-24 bg-surface">
+      <div className="max-w-7xl mx-auto px-6">
+        {/* Header */}
+        <div className="text-center mb-16 animate-fade-in">
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
+            Ambientes & Plantas
+          </h2>
+          <div className="w-16 h-1 bg-gradient-to-r from-gold to-gold-dark mx-auto mb-6"></div>
+          <p className="font-inter text-lg text-gray-medium max-w-2xl mx-auto leading-relaxed">
+            Apartamentos únicos com integrações inteligentes e ambientes pensados para o seu conforto
+          </p>
+        </div>
+
+        <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
+          {/* Image */}
+          <div className="animate-scale-in">
+            <div className="relative">
+              <img 
+                src={fitnessCenter} 
+                alt="Ambiente interno premium do WIN" 
+                className="w-full h-[500px] object-cover rounded-lg shadow-medium"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
+            </div>
+          </div>
+
+          {/* Content */}
+          <div className="animate-fade-in">
+            <h3 className="font-display text-3xl font-bold text-primary mb-6">
+              Integrações Inteligentes
+            </h3>
+            <p className="font-inter text-lg text-gray-medium mb-8 leading-relaxed">
+              Cada apartamento foi projetado com integrações que valorizam a funcionalidade e a estética, criando ambientes fluidos e contemporâneos.
+            </p>
+
+            <div className="space-y-6">
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 bg-gold rounded-full flex items-center justify-center mt-1">
+                  <div className="w-2 h-2 bg-white rounded-full"></div>
+                </div>
+                <div>
+                  <h4 className="font-primary font-semibold text-primary mb-2">Living Integrado</h4>
+                  <p className="font-inter text-gray-medium">Conceito aberto que une sala, cozinha e varanda em um ambiente único</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 bg-gold rounded-full flex items-center justify-center mt-1">
+                  <div className="w-2 h-2 bg-white rounded-full"></div>
+                </div>
+                <div>
+                  <h4 className="font-primary font-semibold text-primary mb-2">Iluminação Natural</h4>
+                  <p className="font-inter text-gray-medium">Grandes aberturas e layouts que privilegiam a entrada de luz</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 bg-gold rounded-full flex items-center justify-center mt-1">
+                  <div className="w-2 h-2 bg-white rounded-full"></div>
+                </div>
+                <div>
+                  <h4 className="font-primary font-semibold text-primary mb-2">Acabamentos Premium</h4>
+                  <p className="font-inter text-gray-medium">Materiais selecionados e detalhes que fazem a diferença</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Apartments Grid */}
+        <div className="grid md:grid-cols-3 gap-8">
+          {apartments.map((apartment, index) => (
+            <Card 
+              key={apartment.type} 
+              className="hover-lift border-border/50 bg-background animate-fade-in"
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              <CardContent className="p-8">
+                <div className="mb-4">
+                  <Badge className="bg-gold-muted text-primary font-primary font-semibold mb-2">
+                    {apartment.highlight}
+                  </Badge>
+                  <h3 className="font-display text-2xl font-bold text-primary mb-2">
+                    {apartment.type}
+                  </h3>
+                  <p className="font-primary text-lg font-semibold text-gold">
+                    {apartment.area} privativos
+                  </p>
+                </div>
+
+                <div className="space-y-3">
+                  {apartment.features.map((feature, featureIndex) => (
+                    <div key={featureIndex} className="flex items-center space-x-3">
+                      <div className="w-1.5 h-1.5 bg-gold rounded-full"></div>
+                      <span className="font-inter text-gray-medium">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+
+        {/* Bottom CTA */}
+        <div className="text-center mt-16 animate-slide-up">
+          <p className="font-inter text-lg text-gray-medium mb-6">
+            Plantas detalhadas e tour virtual disponíveis
+          </p>
+          <div className="inline-block w-24 h-1 bg-gradient-to-r from-gold to-gold-dark"></div>
+        </div>
+      </div>
+    </section>
+  );
+};

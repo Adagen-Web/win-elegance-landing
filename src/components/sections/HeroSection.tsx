@@ -25,17 +25,17 @@ export const HeroSection = () => {
       <div className="relative z-10 h-full flex items-center justify-center">
         <div className="max-w-4xl mx-auto text-center px-6">
           <div className="animate-fade-in">
-            <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight italic">
+            <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light text-white mb-6 leading-tight italic tracking-tight">
               Win
             </h1>
-            <p className="font-primary text-lg md:text-xl text-white/90 mb-2 tracking-wider uppercase">
+            <p className="font-primary text-lg md:text-xl text-white/90 mb-2 tracking-widest uppercase font-light">
               Residence
             </p>
             <div className="w-24 h-1 bg-gradient-to-r from-gold to-gold-dark mx-auto mb-8"></div>
-            <p className="font-primary text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto leading-relaxed">
+            <p className="font-primary text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto leading-relaxed font-light">
               Reinvente o seu cotidiano
             </p>
-            <p className="font-inter text-lg md:text-xl text-white/80 mb-12 max-w-2xl mx-auto font-light">
+            <p className="font-inter text-lg md:text-xl text-white/80 mb-12 max-w-2xl mx-auto font-extralight">
               Aqui, cada dia convida a experimentar novos caminhos de viver bem
             </p>
           </div>
@@ -44,7 +44,7 @@ export const HeroSection = () => {
             <Button 
               onClick={scrollToContact}
               size="lg"
-              className="bg-gradient-to-r from-gold to-gold-dark text-primary font-primary font-semibold text-lg px-8 py-4 hover:shadow-glow hover:scale-105 transition-all duration-300"
+              className="bg-gradient-to-r from-gold to-gold-dark text-primary font-primary font-light text-lg px-8 py-4 hover:shadow-glow hover:scale-105 transition-all duration-300 tracking-wide"
             >
               Descubra o WIN
             </Button>

@@ -8,31 +8,31 @@ export const AboutSection = () => {
           {/* Content */}
           <div className="animate-fade-in">
             <div className="max-w-xl">
-              <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
+              <h2 className="font-display text-4xl md:text-5xl font-light text-primary mb-6 tracking-tight">
                 Espaços que acolhem o seu ritmo
               </h2>
               <div className="w-16 h-1 bg-gradient-to-r from-gold to-gold-dark mb-8"></div>
               
-              <p className="font-inter text-lg text-gray-medium mb-6 leading-relaxed">
-                Descubra um novo endereço e símbolo de personalidade e praticidade. Bem-vindo ao <strong className="text-primary font-semibold">Win</strong>, onde cada detalhe convida a experimentar novos caminhos de viver bem.
+              <p className="font-inter text-lg text-gray-medium mb-6 leading-relaxed font-light">
+                Descubra um novo endereço e símbolo de personalidade e praticidade. Bem-vindo ao <strong className="text-primary font-medium">Win</strong>, onde cada detalhe convida a experimentar novos caminhos de viver bem.
               </p>
               
-              <p className="font-inter text-lg text-gray-medium mb-8 leading-relaxed">
+              <p className="font-inter text-lg text-gray-medium mb-8 leading-relaxed font-light">
                 Aqui, você encontra o ambiente urbano e natural integrados, com soluções inteligentes pensadas para o seu conforto e bem-estar.
               </p>
 
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <div className="w-2 h-2 bg-gold rounded-full"></div>
-                  <span className="font-primary text-gray-warm font-medium">Arquitetura contemporânea assinada</span>
+                  <span className="font-primary text-gray-warm font-light tracking-wide">Arquitetura contemporânea assinada</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <div className="w-2 h-2 bg-gold rounded-full"></div>
-                  <span className="font-primary text-gray-warm font-medium">Localização privilegiada e estratégica</span>
+                  <span className="font-primary text-gray-warm font-light tracking-wide">Localização privilegiada e estratégica</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <div className="w-2 h-2 bg-gold rounded-full"></div>
-                  <span className="font-primary text-gray-warm font-medium">Lifestyle exclusivo e diferenciado</span>
+                  <span className="font-primary text-gray-warm font-light tracking-wide">Lifestyle exclusivo e diferenciado</span>
                 </div>
               </div>
             </div>

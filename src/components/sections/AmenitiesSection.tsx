@@ -1,8 +1,35 @@
 import { Building2, Waves, Users, Dumbbell, Baby, Car } from "lucide-react";
 import { Card, CardContent } from "../ui/card";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../ui/carousel";
 import winRooftopPool from "../../assets/win-rooftop-pool.jpg";
+import winBuildingFacade from "../../assets/win-building-facade.jpg";
+import winApartmentInterior from "../../assets/win-apartment-interior.jpg";
+import winFitnessCenter from "../../assets/win-fitness-center.jpg";
 
 export const AmenitiesSection = () => {
+  const galleryImages = [
+    {
+      src: winRooftopPool,
+      title: "Rooftop Premium",
+      subtitle: "O ponto mais alto do seu novo lifestyle"
+    },
+    {
+      src: winBuildingFacade,
+      title: "Vista Panorâmica",
+      subtitle: "Contemplação urbana em sua forma mais elegante"
+    },
+    {
+      src: winApartmentInterior,
+      title: "Ambientes Integrados",
+      subtitle: "Sofisticação em cada detalhe"
+    },
+    {
+      src: winFitnessCenter,
+      title: "Espaços de Bem-Estar",
+      subtitle: "Qualidade de vida em primeiro lugar"
+    }
+  ];
+
   const amenities = [
     {
       icon: Building2,
@@ -50,24 +77,34 @@ export const AmenitiesSection = () => {
           </p>
         </div>
 
-        {/* Featured Image */}
+        {/* Gallery Carousel */}
         <div className="mb-16 animate-scale-in">
-          <div className="relative h-96 rounded-lg overflow-hidden shadow-medium">
-            <img 
-              src={winRooftopPool} 
-              alt="Vista privilegiada Win Residence" 
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
-            <div className="absolute bottom-8 left-8">
-              <h3 className="font-display text-2xl font-bold text-white mb-2">
-                Rooftop Premium
-              </h3>
-              <p className="font-inter text-white/90">
-                O ponto mais alto do seu novo lifestyle
-              </p>
-            </div>
-          </div>
+          <Carousel className="relative">
+            <CarouselContent>
+              {galleryImages.map((image, index) => (
+                <CarouselItem key={index}>
+                  <div className="relative h-96 rounded-lg overflow-hidden shadow-medium">
+                    <img 
+                      src={image.src} 
+                      alt={image.title} 
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                    <div className="absolute bottom-8 left-8">
+                      <h3 className="font-display text-2xl font-light text-white mb-2">
+                        {image.title}
+                      </h3>
+                      <p className="font-inter text-white/90 text-sm">
+                        {image.subtitle}
+                      </p>
+                    </div>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-4 bg-white/10 border-white/20 text-white hover:bg-white/20" />
+            <CarouselNext className="right-4 bg-white/10 border-white/20 text-white hover:bg-white/20" />
+          </Carousel>
         </div>
 
         {/* Amenities Grid */}

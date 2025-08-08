@@ -1,4 +1,4 @@
-import winApartmentInterior from "../../assets/win-apartment-interior.jpg";
+import winHall from "../../assets/win-hall.jpg";
 
 export const AboutSection = () => {
   return (
@@ -8,7 +8,7 @@ export const AboutSection = () => {
           {/* Content */}
           <div className="animate-fade-in">
             <div className="max-w-xl">
-              <h2 className="font-display text-4xl md:text-5xl font-light text-primary mb-6 tracking-tight">
+              <h2 className="font-inter text-4xl md:text-5xl font-light text-primary mb-6 tracking-tight">
                 Espaços que acolhem o seu ritmo
               </h2>
               <div className="w-16 h-1 bg-gradient-to-r from-gold to-gold-dark mb-8"></div>
@@ -42,7 +42,7 @@ export const AboutSection = () => {
           <div className="animate-scale-in">
             <div className="relative">
               <img 
-                src={winApartmentInterior} 
+                src={winHall} 
                 alt="Interior integrado Win Residence" 
                 className="w-full h-[600px] object-cover rounded-lg shadow-medium"
               />
@@ -54,19 +54,19 @@ export const AboutSection = () => {
         {/* Stats */}
         <div className="mt-24 grid md:grid-cols-3 gap-8">
           <div className="text-center animate-fade-in">
-            <div className="font-display text-3xl md:text-4xl font-bold text-primary mb-2">
+            <div className="font-inter text-3xl md:text-4xl font-normal text-primary mb-2">
               Exclusivo
             </div>
             <p className="font-inter text-gray-medium">Unidades limitadas</p>
           </div>
           <div className="text-center animate-fade-in">
-            <div className="font-display text-3xl md:text-4xl font-bold text-primary mb-2">
+            <div className="font-inter text-3xl md:text-4xl font-normal text-primary mb-2">
               Premium
             </div>
-            <p className="font-inter text-gray-medium">Acabamentos de luxo</p>
+            <p className="font-inter text-gray-medium">Acabamentos de alto padrão</p>
           </div>
           <div className="text-center animate-fade-in">
-            <div className="font-display text-3xl md:text-4xl font-bold text-primary mb-2">
+            <div className="font-inter text-3xl md:text-4xl font-normal text-primary mb-2">
               Único
             </div>
             <p className="font-inter text-gray-medium">Projeto diferenciado</p>

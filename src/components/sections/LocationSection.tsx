@@ -6,13 +6,13 @@ export const LocationSection = () => {
     {
       icon: Waves,
       title: "Praia",
-      distance: "800m",
+      distance: "500m",
       description: "Acesso rápido ao mar"
     },
     {
       icon: ShoppingBag,
       title: "Shopping",
-      distance: "1.2km",
+      distance: "1km",
       description: "Centro comercial completo"
     },
     {
@@ -40,12 +40,15 @@ export const LocationSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
-            Localização
+          <h2 className="font-inter text-4xl md:text-5xl font-light text-primary mb-6">
+            A poucos minutos
+            de tudo que importa
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-gold to-gold-dark mx-auto mb-6"></div>
           <p className="font-inter text-lg text-gray-medium max-w-2xl mx-auto leading-relaxed">
-            Estrategicamente posicionado para oferecer o melhor da vida urbana com a tranquilidade que você merece
+            Seja pra curtir a natureza, resolver o dia a dia ou
+            aproveitar as opções de lazer, morar no Win é estar
+            perto de tudo o que faz a vida fluir com leveza.
           </p>
         </div>
 
@@ -59,13 +62,16 @@ export const LocationSection = () => {
                   Localização Privilegiada
                 </h3>
                 <p className="font-inter text-gray-medium mb-4">
-                  Região nobre da cidade
+                  Mais do que localização: um endereço
+                  que valoriza o seu tempo.
                 </p>
-                <div className="bg-gold-muted px-4 py-2 rounded-full inline-block">
-                  <span className="font-primary text-sm font-semibold text-primary">
-                    Mapa interativo em breve
-                  </span>
-                </div>
+                <a href="https://www.google.com/maps/place/R.+Leonardo+Truda,+540+-+Centro,+Torres+-+RS,+95560-000/@-29.3334797,-49.7269626,1007m/data=!3m2!1e3!4b1!4m6!3m5!1s0x952269a1f7b460ef:0xf95539799bf0e0b1!8m2!3d-29.3334797!4d-49.7269626!16s%2Fg%2F11c23jkm45?entry=ttu&g_ep=EgoyMDI1MDgwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                  <div className="bg-gold-muted px-4 py-2 rounded-full inline-block">
+                    <span className="font-primary text-sm font-semibold text-primary">
+                      R. Leonardo Truda, 540 - Centro - Torres/RS
+                    </span>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -112,7 +118,7 @@ export const LocationSection = () => {
         {/* Bottom highlight */}
         <div className="mt-16 text-center animate-slide-up">
           <div className="bg-gradient-to-r from-gold-muted to-nude p-8 rounded-lg">
-            <h3 className="font-display text-2xl font-bold text-primary mb-4">
+            <h3 className="font-inter text-2xl font-light text-primary mb-4">
               Conectividade Total
             </h3>
             <p className="font-inter text-lg text-gray-warm max-w-2xl mx-auto leading-relaxed">

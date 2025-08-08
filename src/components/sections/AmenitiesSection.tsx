@@ -1,32 +1,58 @@
 import { Building2, Waves, Users, Dumbbell, Baby, Car } from "lucide-react";
 import { Card, CardContent } from "../ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../ui/carousel";
-import winRooftopPool from "../../assets/win-rooftop-pool.jpg";
-import winBuildingFacade from "../../assets/win-building-facade.jpg";
-import winApartmentInterior from "../../assets/win-apartment-interior.jpg";
-import winFitnessCenter from "../../assets/win-fitness-center.jpg";
+import winRooftop from "../../assets/win-rooftop.jpg";
+import winSalao from "../../assets/win-salao.jpg";
+import winKids from "../../assets/win-kids.jpg";
+import winFitnessCenter from "../../assets/win-academia.jpg";
+import winLiving from "../../assets/win-academia.jpg";
 
 export const AmenitiesSection = () => {
   const galleryImages = [
     {
-      src: winRooftopPool,
+      src: winRooftop,
       title: "Rooftop Premium",
-      subtitle: "O ponto mais alto do seu novo lifestyle"
+      subtitle: "Vista privilegiada para viver momentos únicos."
     },
     {
-      src: winBuildingFacade,
-      title: "Vista Panorâmica",
-      subtitle: "Contemplação urbana em sua forma mais elegante"
+      src: winSalao,
+      title: "Salão de Festas",
+      subtitle: "Estética e praticidade pensadas para receber bem."
     },
     {
-      src: winApartmentInterior,
-      title: "Ambientes Integrados",
-      subtitle: "Sofisticação em cada detalhe"
+      src: winKids,
+      title: "Área Kids e Playground",
+      subtitle: "Lugar de brincar, explorar e criar memórias."
     },
     {
       src: winFitnessCenter,
-      title: "Espaços de Bem-Estar",
-      subtitle: "Qualidade de vida em primeiro lugar"
+      title: "Academia",
+      subtitle: "Academia equipada para treinos completos, com ambiente moderno e inspirador."
+    },
+    {
+      src: winLiving,
+      title: "Living",
+      subtitle: "Detalhes que fazem a diferença."
+    },
+    {
+      src: winLiving,
+      title: "Living",
+      subtitle: "Detalhes que fazem a diferença."
+    },
+    {
+      src: winLiving,
+      title: "Living",
+      subtitle: "Detalhes que fazem a diferença."
+    },
+    {
+      src: winLiving,
+      title: "Living",
+      subtitle: "Detalhes que fazem a diferença."
+    },
+    {
+      src: winLiving,
+      title: "Suíte",
+      subtitle: "Conforto que se estende por toda a experiência."
     }
   ];
 
@@ -34,32 +60,32 @@ export const AmenitiesSection = () => {
     {
       icon: Building2,
       title: "Rooftop",
-      description: "Espaço exclusivo com vista panorâmica para momentos únicos de contemplação e convívio"
+      description: "Espaço exclusivo com vista panorâmica para momentos únicos de contemplação e convívio."
     },
     {
       icon: Waves,
       title: "Piscina",
-      description: "Área aquática premium com design contemporâneo para relaxamento e bem-estar"
+      description: "Área aquática premium com design contemporâneo para relaxamento e bem-estar."
     },
     {
       icon: Users,
       title: "Salão de Festas",
-      description: "Ambiente sofisticado e versátil para celebrações e eventos memoráveis"
+      description: "Ambiente sofisticado e versátil para celebrações e eventos memoráveis."
     },
     {
       icon: Dumbbell,
       title: "Academia",
-      description: "Espaço fitness completo com equipamentos de última geração"
+      description: "Espaço fitness completo com equipamentos de última geração."
     },
     {
       icon: Baby,
       title: "Área Kids",
-      description: "Espaço lúdico e seguro pensado especialmente para os pequenos"
+      description: "Espaço lúdico e seguro pensado especialmente para os pequenos."
     },
     {
       icon: Car,
       title: "Garagem",
-      description: "Vagas cobertas com segurança e praticidade para seu conforto"
+      description: "Vagas cobertas com segurança e bicicletário integrado."
     }
   ];
 
@@ -68,12 +94,12 @@ export const AmenitiesSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
+          <h2 className="font-inter text-4xl md:text-5xl font-light text-primary mb-6">
             Diferenciais & Lazer
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-gold to-gold-dark mx-auto mb-6"></div>
           <p className="font-inter text-lg text-gray-medium max-w-2xl mx-auto leading-relaxed">
-            Comodidades pensadas para elevar seu padrão de vida e proporcionar momentos inesquecíveis
+            Comodidades pensadas para elevar seu padrão de vida e proporcionar momentos inesquecíveis.
           </p>
         </div>
 
@@ -128,14 +154,6 @@ export const AmenitiesSection = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        {/* Call to action */}
-        <div className="text-center mt-16 animate-slide-up">
-          <p className="font-inter text-lg text-gray-medium mb-6">
-            Cada detalhe pensado para sua satisfação e bem-estar
-          </p>
-          <div className="inline-block w-24 h-1 bg-gradient-to-r from-gold to-gold-dark"></div>
         </div>
       </div>
     </section>

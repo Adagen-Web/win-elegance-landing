@@ -1,27 +1,21 @@
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
-import winApartmentInterior from "../../assets/win-apartment-interior.jpg";
+import winFachadaLateral from "../../assets/win-fachada-lateral.jpg";
 
 export const ApartmentsSection = () => {
   const apartments = [
     {
       type: "2 Dormitórios",
-      area: "78m²",
-      features: ["Sala ampla", "Varanda gourmet", "Suíte master", "Acabamento premium"],
+      area: "80m²",
+      features: ["Sala ampla", "Varanda gourmet", "Uma Suíte", "Acabamento premium"],
       highlight: "Ideal para casais"
     },
     {
       type: "3 Dormitórios",
-      area: "105m²",
+      area: "100m²",
       features: ["Living integrado", "Lavabo", "2 Suítes", "Área de serviço"],
       highlight: "Perfeito para famílias"
     },
-    {
-      type: "4 Dormitórios",
-      area: "142m²",
-      features: ["Ambiente gourmet", "Home office", "3 Suítes", "Closet master"],
-      highlight: "Máximo conforto"
-    }
   ];
 
   return (
@@ -29,12 +23,14 @@ export const ApartmentsSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
+          <h2 className="font-inter text-4xl md:text-5xl font-light text-primary mb-6">
             Apartamentos ideais para morar ou investir
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-gold to-gold-dark mx-auto mb-6"></div>
           <p className="font-inter text-lg text-gray-medium max-w-2xl mx-auto leading-relaxed">
-            Viva mais e aproveite as soluções inteligentes e ambientes integrados projetados para o seu conforto
+            No Win, cada unidade foi projetada para unir
+            conforto, modernidade e funcionalidade em espaços
+            amplos e iluminados.
           </p>
         </div>
 
@@ -43,7 +39,7 @@ export const ApartmentsSection = () => {
           <div className="animate-scale-in">
             <div className="relative">
               <img 
-                src={winApartmentInterior} 
+                src={winFachadaLateral} 
                 alt="Ambiente integrado Win Residence" 
                 className="w-full h-[500px] object-cover rounded-lg shadow-medium"
               />
@@ -95,7 +91,7 @@ export const ApartmentsSection = () => {
         </div>
 
         {/* Apartments Grid */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {apartments.map((apartment, index) => (
             <Card 
               key={apartment.type} 

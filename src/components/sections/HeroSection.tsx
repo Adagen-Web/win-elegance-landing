@@ -1,5 +1,5 @@
 import { Button } from "../ui/button";
-import heroBuilding from "../../assets/hero-building.jpg";
+import winBuildingFacade from "../../assets/win-building-facade.jpg";
 
 export const HeroSection = () => {
   const scrollToContact = () => {
@@ -14,8 +14,8 @@ export const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src={heroBuilding} 
-          alt="WIN - Empreendimento Premium" 
+          src={winBuildingFacade} 
+          alt="WIN Residence - Empreendimento Premium" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60"></div>
@@ -25,12 +25,15 @@ export const HeroSection = () => {
       <div className="relative z-10 h-full flex items-center justify-center">
         <div className="max-w-4xl mx-auto text-center px-6">
           <div className="animate-fade-in">
-            <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
-              WIN
+            <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight italic">
+              Win
             </h1>
+            <p className="font-primary text-lg md:text-xl text-white/90 mb-2 tracking-wider uppercase">
+              Residence
+            </p>
             <div className="w-24 h-1 bg-gradient-to-r from-gold to-gold-dark mx-auto mb-8"></div>
             <p className="font-primary text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto leading-relaxed">
-              Elegância, Luxo e Exclusividade
+              Reinvente o seu cotidiano
             </p>
             <p className="font-inter text-lg md:text-xl text-white/80 mb-12 max-w-2xl mx-auto font-light">
               Aqui, cada dia convida a experimentar novos caminhos de viver bem

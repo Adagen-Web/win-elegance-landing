@@ -1,6 +1,6 @@
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
-import fitnessCenter from "../../assets/fitness-center.jpg";
+import winApartmentInterior from "../../assets/win-apartment-interior.jpg";
 
 export const ApartmentsSection = () => {
   const apartments = [
@@ -30,11 +30,11 @@ export const ApartmentsSection = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
-            Ambientes & Plantas
+            Apartamentos ideais para morar ou investir
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-gold to-gold-dark mx-auto mb-6"></div>
           <p className="font-inter text-lg text-gray-medium max-w-2xl mx-auto leading-relaxed">
-            Apartamentos únicos com integrações inteligentes e ambientes pensados para o seu conforto
+            Viva mais e aproveite as soluções inteligentes e ambientes integrados projetados para o seu conforto
           </p>
         </div>
 
@@ -43,8 +43,8 @@ export const ApartmentsSection = () => {
           <div className="animate-scale-in">
             <div className="relative">
               <img 
-                src={fitnessCenter} 
-                alt="Ambiente interno premium do WIN" 
+                src={winApartmentInterior} 
+                alt="Ambiente integrado Win Residence" 
                 className="w-full h-[500px] object-cover rounded-lg shadow-medium"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>

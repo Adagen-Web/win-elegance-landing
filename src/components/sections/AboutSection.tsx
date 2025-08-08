@@ -1,4 +1,4 @@
-import apartmentInterior from "../../assets/apartment-interior.jpg";
+import winApartmentInterior from "../../assets/win-apartment-interior.jpg";
 
 export const AboutSection = () => {
   return (
@@ -9,16 +9,16 @@ export const AboutSection = () => {
           <div className="animate-fade-in">
             <div className="max-w-xl">
               <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
-                Conceito
+                Espaços que acolhem o seu ritmo
               </h2>
               <div className="w-16 h-1 bg-gradient-to-r from-gold to-gold-dark mb-8"></div>
               
               <p className="font-inter text-lg text-gray-medium mb-6 leading-relaxed">
-                Bem-vindo ao <strong className="text-primary font-semibold">WIN</strong>, onde a ousadia da arquitetura moderna encontra o requinte contemporâneo. Este empreendimento de alto padrão oferece uma experiência de moradia incomparável.
+                Descubra um novo endereço e símbolo de personalidade e praticidade. Bem-vindo ao <strong className="text-primary font-semibold">Win</strong>, onde cada detalhe convida a experimentar novos caminhos de viver bem.
               </p>
               
               <p className="font-inter text-lg text-gray-medium mb-8 leading-relaxed">
-                Cada ambiente foi pensado para proporcionar conforto, elegância e funcionalidade, criando o cenário perfeito para quem busca viver com distinção.
+                Aqui, você encontra o ambiente urbano e natural integrados, com soluções inteligentes pensadas para o seu conforto e bem-estar.
               </p>
 
               <div className="space-y-4">
@@ -42,8 +42,8 @@ export const AboutSection = () => {
           <div className="animate-scale-in">
             <div className="relative">
               <img 
-                src={apartmentInterior} 
-                alt="Interior elegante do WIN" 
+                src={winApartmentInterior} 
+                alt="Interior integrado Win Residence" 
                 className="w-full h-[600px] object-cover rounded-lg shadow-medium"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>

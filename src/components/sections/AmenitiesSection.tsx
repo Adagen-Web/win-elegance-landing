@@ -1,6 +1,6 @@
 import { Building2, Waves, Users, Dumbbell, Baby, Car } from "lucide-react";
 import { Card, CardContent } from "../ui/card";
-import rooftopPool from "../../assets/rooftop-pool.jpg";
+import winRooftopPool from "../../assets/win-rooftop-pool.jpg";
 
 export const AmenitiesSection = () => {
   const amenities = [
@@ -54,8 +54,8 @@ export const AmenitiesSection = () => {
         <div className="mb-16 animate-scale-in">
           <div className="relative h-96 rounded-lg overflow-hidden shadow-medium">
             <img 
-              src={rooftopPool} 
-              alt="Rooftop com piscina do WIN" 
+              src={winRooftopPool} 
+              alt="Vista privilegiada Win Residence" 
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>

@@ -78,6 +78,7 @@ export default {
 				'display': ['Playfair Display', 'serif'],
 				'primary': ['Montserrat', 'sans-serif'],
 				'inter': ['Inter', 'sans-serif'],
+				'script': ['Dancing Script', 'cursive'],
 			},
 			spacing: {
 				'18': '4.5rem',

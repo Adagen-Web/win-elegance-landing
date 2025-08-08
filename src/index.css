@@ -8,54 +8,54 @@ All colors MUST be HSL for elegant gradients and refined aesthetics.
 
 @layer base {
   :root {
-    /* Premium Color Palette - Sophisticated & Refined */
-    --background: 0 0% 100%;
-    --foreground: 240 6% 10%;
+    /* WIN Brand Color Palette - Refined Beige & Warm Tones */
+    --background: 32 25% 94%;
+    --foreground: 25 15% 15%;
     
-    /* Off-white and neutral tones */
-    --surface: 30 8% 97%;
-    --surface-muted: 30 5% 95%;
+    /* WIN Surface tones - warm beiges */
+    --surface: 35 20% 90%;
+    --surface-muted: 32 18% 88%;
     
-    /* Elegant golds and warm accents */
-    --gold: 45 30% 70%;
-    --gold-muted: 45 15% 85%;
-    --gold-dark: 45 40% 55%;
+    /* WIN Gold accents - muted and elegant */
+    --gold: 40 35% 65%;
+    --gold-muted: 42 25% 78%;
+    --gold-dark: 38 45% 52%;
     
-    /* Sophisticated grays */
-    --gray-warm: 30 4% 25%;
-    --gray-medium: 30 3% 50%;
-    --gray-light: 30 5% 85%;
+    /* WIN Grays - warm and sophisticated */
+    --gray-warm: 32 12% 35%;
+    --gray-medium: 30 8% 55%;
+    --gray-light: 34 15% 85%;
     
-    /* Nude/Beige tones */
-    --nude: 35 15% 88%;
-    --nude-dark: 35 20% 75%;
+    /* WIN Nude/Beige tones */
+    --nude: 32 25% 82%;
+    --nude-dark: 30 20% 70%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 6% 10%;
+    --card: 35 20% 92%;
+    --card-foreground: 25 15% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 6% 10%;
+    --popover: 35 20% 92%;
+    --popover-foreground: 25 15% 15%;
 
-    /* Primary using warm gray for elegance */
-    --primary: 240 6% 10%;
-    --primary-foreground: 0 0% 100%;
+    /* Primary using deep warm brown */
+    --primary: 25 15% 15%;
+    --primary-foreground: 32 25% 94%;
 
-    /* Secondary using gold accent */
-    --secondary: 45 30% 70%;
-    --secondary-foreground: 240 6% 10%;
+    /* Secondary using warm gold */
+    --secondary: 40 35% 65%;
+    --secondary-foreground: 25 15% 15%;
 
-    --muted: 30 5% 95%;
-    --muted-foreground: 30 3% 50%;
+    --muted: 32 18% 88%;
+    --muted-foreground: 30 12% 45%;
 
-    --accent: 45 15% 85%;
-    --accent-foreground: 240 6% 10%;
+    --accent: 35 30% 75%;
+    --accent-foreground: 25 15% 15%;
 
     --destructive: 0 70% 50%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 32 25% 94%;
 
-    --border: 30 5% 90%;
-    --input: 30 5% 95%;
-    --ring: 45 30% 70%;
+    --border: 32 15% 85%;
+    --input: 32 15% 85%;
+    --ring: 40 35% 65%;
 
     --radius: 0.75rem;
 
@@ -75,33 +75,33 @@ All colors MUST be HSL for elegant gradients and refined aesthetics.
   }
 
   .dark {
-    /* Dark mode keeps the same sophisticated palette with inversions */
-    --background: 240 6% 10%;
-    --foreground: 0 0% 100%;
-    --surface: 240 5% 15%;
-    --surface-muted: 240 4% 12%;
+    /* WIN Dark mode - warm dark tones */
+    --background: 25 15% 8%;
+    --foreground: 32 25% 94%;
+    --surface: 25 15% 12%;
+    --surface-muted: 30 12% 10%;
     
-    --card: 240 5% 15%;
-    --card-foreground: 0 0% 100%;
+    --card: 25 15% 12%;
+    --card-foreground: 32 25% 94%;
 
-    --popover: 240 5% 15%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 25 15% 12%;
+    --popover-foreground: 32 25% 94%;
 
-    --primary: 0 0% 100%;
-    --primary-foreground: 240 6% 10%;
+    --primary: 32 25% 94%;
+    --primary-foreground: 25 15% 8%;
 
-    --secondary: 45 25% 60%;
-    --secondary-foreground: 240 6% 10%;
+    --secondary: 40 35% 65%;
+    --secondary-foreground: 25 15% 8%;
 
-    --muted: 240 4% 20%;
-    --muted-foreground: 30 3% 70%;
+    --muted: 30 12% 18%;
+    --muted-foreground: 32 12% 65%;
 
-    --accent: 240 4% 25%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 30 15% 25%;
+    --accent-foreground: 32 25% 94%;
 
-    --border: 240 4% 20%;
-    --input: 240 4% 20%;
-    --ring: 45 25% 60%;
+    --border: 30 12% 18%;
+    --input: 30 12% 18%;
+    --ring: 40 35% 65%;
   }
 }
 

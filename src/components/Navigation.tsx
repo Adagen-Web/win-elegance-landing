@@ -25,8 +25,8 @@ export const Navigation = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="font-display text-2xl font-bold text-primary">
-            WIN
+          <div className="font-display text-2xl font-bold text-primary italic">
+            Win
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

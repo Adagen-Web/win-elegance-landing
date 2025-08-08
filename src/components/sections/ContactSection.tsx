@@ -52,7 +52,7 @@ export const ContactSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
+          <h2 className="font-inter text-4xl md:text-5xl font-light text-primary mb-6">
             Invista em Viver Bem
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-gold to-gold-dark mx-auto mb-6"></div>
@@ -159,7 +159,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-primary font-semibold text-primary">Telefone</h4>
-                    <p className="font-inter text-gray-medium">(47) 9999-9999</p>
+                    <p className="font-inter text-gray-medium">(51) 98163-5012</p>
                   </div>
                 </div>
 
@@ -169,7 +169,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-primary font-semibold text-primary">E-mail</h4>
-                    <p className="font-inter text-gray-medium">contato@win.com.br</p>
+                    <p className="font-inter text-gray-medium">contato@wolkincorp.com.br</p>
                   </div>
                 </div>
 
@@ -179,7 +179,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-primary font-semibold text-primary">Endereço</h4>
-                    <p className="font-inter text-gray-medium">Região Premium da Cidade</p>
+                    <p className="font-inter text-gray-medium">R. Leonardo Truda, 540 - Centro - Torres/RS</p>
                   </div>
                 </div>
 
@@ -195,14 +195,14 @@ export const ContactSection = () => {
               </div>
 
               {/* CTA Box */}
-              <div className="bg-gradient-to-r from-gold-muted to-nude p-6 rounded-lg mt-8">
+              {/* <div className="bg-gradient-to-r from-gold-muted to-nude p-6 rounded-lg mt-8">
                 <h4 className="font-display text-xl font-bold text-primary mb-3">
                   Condições Especiais
                 </h4>
                 <p className="font-inter text-gray-warm">
                   Aproveite as condições exclusivas de lançamento. Oportunidade limitada para investidores que valorizam qualidade e exclusividade.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

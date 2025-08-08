@@ -1,6 +1,7 @@
 import { Button } from "../ui/button";
 import winBuildingFacade from "../../assets/bg-hero-fachada.webp";
 import logoWin from "../../assets/logo-win.png";
+import logoMarrom from "../../assets/logo-marrom.png";
 
 export const HeroSection = () => {
   const scrollToContact = () => {
@@ -19,7 +20,7 @@ export const HeroSection = () => {
           alt="WIN Residence - Empreendimento Premium" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/25 to-black/60"></div>
       </div>
 
       {/* Content */}
@@ -28,9 +29,9 @@ export const HeroSection = () => {
           <div className="animate-fade-in">
             <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light text-white mb-14 leading-tight italic tracking-tight">
               <img
-                src={logoWin}
+                src={logoMarrom}
                 alt="WIN Residence - Empreendimento Premium"
-                className="w-auto h-52 object-contain"
+                className="w-auto h-56 object-contain"
               />
             </h1>
             <p className="font-primary text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto leading-relaxed font-light">

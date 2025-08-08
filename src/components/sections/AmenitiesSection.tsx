@@ -4,7 +4,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import winRooftop from "../../assets/win-rooftop.jpg";
 import winSalao from "../../assets/win-salao.jpg";
 import winKids from "../../assets/win-kids.jpg";
-import winFitnessCenter from "../../assets/win-academia.jpg";
+import winAcademia from "../../assets/win-academia.jpg";
 import winLiving from "../../assets/win-academia.jpg";
 
 export const AmenitiesSection = () => {
@@ -25,7 +25,7 @@ export const AmenitiesSection = () => {
       subtitle: "Lugar de brincar, explorar e criar memórias."
     },
     {
-      src: winFitnessCenter,
+      src: winAcademia,
       title: "Academia",
       subtitle: "Academia equipada para treinos completos, com ambiente moderno e inspirador."
     },

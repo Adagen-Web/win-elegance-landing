@@ -67,7 +67,7 @@ export const AboutSection = () => {
           </div>
           <div className="text-center animate-fade-in">
             <div className="font-inter text-3xl md:text-4xl font-normal text-primary mb-2">
-              Único
+              Contemporâneo
             </div>
             <p className="font-inter text-gray-medium">Projeto diferenciado</p>
           </div>

@@ -11,20 +11,49 @@ import planta9 from '../../assets/plantas/planta-9.png';
 import planta10 from '../../assets/plantas/planta-10.png';
 import planta11 from '../../assets/plantas/planta-11.png';
 import planta12 from '../../assets/plantas/planta-12.png';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '../ui/carousel';
 
 const images = [
-  planta1,
-  planta2,
-  planta3,
-  planta4,
-  planta5,
-  planta6,
-  planta7,
-  planta8,
-  planta9,
-  planta10,
-  planta11,
-  planta12,
+  {
+    src: planta1,
+    title: 'Planta 1',
+  },
+  {
+    src: planta2,
+    title: 'Planta 2',
+  },
+  {
+    src: planta3,
+    title: 'Planta 3',
+  },
+  {
+    src: planta4,
+    title: 'Planta 4',
+  },
+  {
+    src: planta5,
+    title: 'Planta 5',
+  },
+  {
+    src: planta7,
+    title: 'Planta 7',
+  },
+  {
+    src: planta8,
+    title: 'Planta 8',
+  },
+  {
+    src:  planta10,
+    title: 'Planta 10',
+  },
+  {
+    src: planta11,
+    title: 'Planta 11',
+  },
+  {
+    src: planta12,  
+    title: 'Planta 12',
+  },
 ];
 
 export function PlantasSection() {
@@ -50,7 +79,7 @@ export function PlantasSection() {
         diferentes estilos de vida e aproveitam o espaço
         com inteligência e conforto.
       </p>
-      <div className="columns-2 md:columns-3 gap-4 space-y-4">
+      {/* <div className="columns-2 md:columns-3 gap-4 space-y-4">
         {images.map((src, index) => (
           <div key={index} className="break-inside-avoid overflow-hidden rounded-lg shadow-md">
             <img
@@ -60,7 +89,30 @@ export function PlantasSection() {
             />
           </div>
         ))}
+      </div> */}
+
+      {/* Gallery Carousel */}
+      <div className="mb-16 animate-scale-in">
+        <Carousel className="relative">
+          <CarouselContent>
+            {images.map((image, index) => (
+              <CarouselItem key={index}>
+                <div className="relative h-[580px] rounded-lg overflow-hidden shadow-medium">
+                  <img
+                    src={image.src}
+                    alt={image.title}
+                    className="w-full h-full object-contain"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="left-4 bg-white/10 border-white/20 text-white hover:bg-white/20" />
+          <CarouselNext className="right-4 bg-white/10 border-white/20 text-white hover:bg-white/20" />
+        </Carousel>
       </div>
+
     </div>
   );
 }

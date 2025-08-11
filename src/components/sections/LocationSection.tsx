@@ -12,13 +12,13 @@ export const LocationSection = () => {
     {
       icon: ShoppingBag,
       title: "Shopping",
-      distance: "1km",
+      distance: "600m",
       description: "Centro comercial completo"
     },
     {
       icon: Car,
       title: "Vias Principais",
-      distance: "500m",
+      distance: "200m",
       description: "Fácil locomoção urbana"
     },
     {
@@ -30,7 +30,7 @@ export const LocationSection = () => {
     {
       icon: Utensils,
       title: "Gastronomia",
-      distance: "300m",
+      distance: "800m",
       description: "Restaurantes renomados"
     }
   ];

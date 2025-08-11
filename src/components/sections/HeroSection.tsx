@@ -20,14 +20,14 @@ export const HeroSection = () => {
           alt="WIN Residence - Empreendimento Premium" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/25 to-black/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/25 to-black/40"></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 h-full flex items-center justify-center">
         <div className="max-w-4xl mx-auto text-center px-6">
           <div className="animate-fade-in">
-            <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light text-white mb-14 leading-tight italic tracking-tight">
+            <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light text-white mb-6 leading-tight italic tracking-tight">
               <img
                 src={logoMarrom}
                 alt="WIN Residence - Empreendimento Premium"

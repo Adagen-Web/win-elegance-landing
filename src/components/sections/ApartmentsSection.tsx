@@ -7,13 +7,13 @@ export const ApartmentsSection = () => {
     {
       type: "2 Dormitórios",
       area: "80m²",
-      features: ["Sala ampla", "Varanda gourmet", "Uma Suíte", "Acabamento premium"],
+      features: ["Living integrado", "Churrasqueira", "Banho social", "Esquadrias amplas piso/teto", "Uma Suíte",],
       highlight: "Ideal para casais"
     },
     {
       type: "3 Dormitórios",
       area: "100m²",
-      features: ["Living integrado", "Lavabo", "2 Suítes", "Área de serviço"],
+      features: ["Living integrado", "Churrasqueira", "Banho social", "Esquadrias amplas piso/teto", "2 Suítes",],
       highlight: "Perfeito para famílias"
     },
   ];
@@ -24,7 +24,7 @@ export const ApartmentsSection = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="font-inter text-4xl md:text-5xl font-light text-primary mb-6">
-            Apartamentos ideais para morar ou investir
+            Apartamentos Versáteis
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-gold to-gold-dark mx-auto mb-6"></div>
           <p className="font-inter text-lg text-gray-medium max-w-2xl mx-auto leading-relaxed">

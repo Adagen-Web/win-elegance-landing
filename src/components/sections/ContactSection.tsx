@@ -160,6 +160,7 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-primary font-semibold text-primary">Telefone</h4>
                     <p className="font-inter text-gray-medium">(51) 98163-5012</p>
+                    <p className="font-inter text-gray-medium">(51) 99520-0073</p>
                   </div>
                 </div>
 

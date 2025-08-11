@@ -5,7 +5,11 @@ import winRooftop from "../../assets/win-rooftop.jpg";
 import winSalao from "../../assets/win-salao.jpg";
 import winKids from "../../assets/win-kids.jpg";
 import winAcademia from "../../assets/win-academia.jpg";
-import winLiving from "../../assets/win-academia.jpg";
+import winLiving01 from "../../assets/win-living-1.jpg";
+import winLiving02 from "../../assets/win-living-2.jpg";
+import winLiving03 from "../../assets/win-living-3.jpg";
+import winLiving04 from "../../assets/win-living-4.jpg";
+import winSuite from "../../assets/win-suite.jpg";
 
 export const AmenitiesSection = () => {
   const galleryImages = [
@@ -30,27 +34,27 @@ export const AmenitiesSection = () => {
       subtitle: "Academia equipada para treinos completos, com ambiente moderno e inspirador."
     },
     {
-      src: winLiving,
+      src: winLiving01,
       title: "Living",
       subtitle: "Detalhes que fazem a diferença."
     },
     {
-      src: winLiving,
+      src: winLiving02,
       title: "Living",
       subtitle: "Detalhes que fazem a diferença."
     },
     {
-      src: winLiving,
+      src: winLiving03,
       title: "Living",
       subtitle: "Detalhes que fazem a diferença."
     },
     {
-      src: winLiving,
+      src: winLiving04,
       title: "Living",
       subtitle: "Detalhes que fazem a diferença."
     },
     {
-      src: winLiving,
+      src: winSuite,
       title: "Suíte",
       subtitle: "Conforto que se estende por toda a experiência."
     }
@@ -109,7 +113,7 @@ export const AmenitiesSection = () => {
             <CarouselContent>
               {galleryImages.map((image, index) => (
                 <CarouselItem key={index}>
-                  <div className="relative h-96 rounded-lg overflow-hidden shadow-medium">
+                  <div className="relative h-[580px] rounded-lg overflow-hidden shadow-medium">
                     <img 
                       src={image.src} 
                       alt={image.title} 

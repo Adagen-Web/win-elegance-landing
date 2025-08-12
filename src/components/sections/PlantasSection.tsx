@@ -69,7 +69,7 @@ export function PlantasSection() {
 
   return (
     <div className="max-w-7xl mx-auto px-8 py-16">
-      <h2 className="text-center text-2xl md:text-3xl font-inter font-light mb-8">Plantas do Empreendimento</h2>
+      <h2 className="text-center font-inter text-4xl md:text-5xl font-light text-primary mb-6">Plantas do Empreendimento</h2>
       <p className="text-center text-sm font-inter font-light">
         No Win, cada unidade foi pensada para
         transformar rotina em bem-estar.

@@ -122,7 +122,7 @@ export const LocationSection = () => {
               Conectividade Total
             </h3>
             <p className="font-inter text-lg text-gray-warm max-w-2xl mx-auto leading-relaxed">
-              Desfrute da proximidade com tudo o que importa, mantendo a privacidade e exclusividade do seu novo lar
+              Desfrute da proximidade com tudo o que importa, mantendo a privacidade e exclusividade do seu novo lar.
             </p>
           </div>
         </div>

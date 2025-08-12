@@ -55,9 +55,9 @@ export const AboutSection = () => {
         <div className="mt-24 grid md:grid-cols-3 gap-8">
           <div className="text-center animate-fade-in">
             <div className="font-inter text-3xl md:text-4xl font-normal text-primary mb-2">
-              Exclusivo
+              Inteligente
             </div>
-            <p className="font-inter text-gray-medium">Unidades limitadas</p>
+            <p className="font-inter text-gray-medium">Localização privilegiada</p>
           </div>
           <div className="text-center animate-fade-in">
             <div className="font-inter text-3xl md:text-4xl font-normal text-primary mb-2">

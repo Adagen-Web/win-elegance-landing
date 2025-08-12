@@ -7,7 +7,7 @@ export const ApartmentsSection = () => {
     {
       type: "2 Dormitórios",
       area: "80m²",
-      features: ["Living integrado", "Churrasqueira", "Banho social", "Esquadrias amplas piso/teto", "Uma Suíte",],
+      features: ["Living integrado", "Churrasqueira", "Banho social", "Esquadrias amplas piso/teto", "1 Suíte",],
       highlight: "Ideal para casais"
     },
     {
@@ -122,14 +122,6 @@ export const ApartmentsSection = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        {/* Bottom CTA */}
-        <div className="text-center mt-16 animate-slide-up">
-          <p className="font-inter text-lg text-gray-medium mb-6">
-            Plantas detalhadas e tour virtual disponíveis
-          </p>
-          <div className="inline-block w-24 h-1 bg-gradient-to-r from-gold to-gold-dark"></div>
         </div>
       </div>
     </section>

@@ -74,7 +74,7 @@ export function PlantasSection() {
         No Win, cada unidade foi pensada para
         transformar rotina em bem-estar.
       </p>
-      <p className="text-center text-sm font-inter font-light mb-8">
+      <p className="text-center text-sm font-inter font-light mb-16">
         Ambientes bem distribuídos, que se adaptam a
         diferentes estilos de vida e aproveitam o espaço
         com inteligência e conforto.

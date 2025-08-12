@@ -159,7 +159,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-primary font-semibold text-primary">Telefone</h4>
-                    <p className="font-inter text-gray-medium">(51) 98163-5012</p>
+                    <p className="font-inter text-gray-medium">(51) 98183-5012</p>
                     <p className="font-inter text-gray-medium">(51) 99520-0073</p>
                   </div>
                 </div>
@@ -170,7 +170,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-primary font-semibold text-primary">E-mail</h4>
-                    <p className="font-inter text-gray-medium">contato@wolkincorp.com.br</p>
+                    <p className="font-inter text-gray-medium">comercial@wolkincorp.com.br</p>
                   </div>
                 </div>
 

@@ -1,6 +1,5 @@
 import { Button } from "../ui/button";
 import winBuildingFacade from "../../assets/bg-hero-fachada.webp";
-import logoWin from "../../assets/logo-win.png";
 import logoMarrom from "../../assets/logo-marrom.png";
 
 export const HeroSection = () => {

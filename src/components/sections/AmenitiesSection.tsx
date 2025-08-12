@@ -10,6 +10,7 @@ import winLiving02 from "../../assets/win-living-2.jpg";
 import winLiving03 from "../../assets/win-living-3.jpg";
 import winLiving04 from "../../assets/win-living-4.jpg";
 import winSuite from "../../assets/win-suite.jpg";
+import { Button } from "../ui/button";
 
 export const AmenitiesSection = () => {
   const galleryImages = [
@@ -93,6 +94,13 @@ export const AmenitiesSection = () => {
     }
   ];
 
+  const scrollToContact = () => {
+    const element = document.getElementById("contato");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section id="diferenciais" className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-6">
@@ -158,6 +166,16 @@ export const AmenitiesSection = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        <div className="text-center mt-16 animate-slide-up">
+          <Button
+            onClick={scrollToContact}
+            size="lg"
+            className="bg-gradient-to-r from-gold to-gold-dark text-primary font-primary font-light text-lg px-8 py-4 hover:shadow-glow hover:scale-105 transition-all duration-300 tracking-wide"
+          >
+            Fale com a Wolk
+          </Button>
         </div>
       </div>
     </section>

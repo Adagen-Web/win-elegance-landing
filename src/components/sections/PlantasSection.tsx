@@ -104,6 +104,11 @@ export function PlantasSection() {
                     className="w-full h-full object-contain"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                  <div className="absolute bottom-8 left-8">
+                    <h3 className="font-inter text-2xl font-light text-white mb-2">
+                      {image.title}
+                    </h3>
+                  </div>
                 </div>
               </CarouselItem>
             ))}

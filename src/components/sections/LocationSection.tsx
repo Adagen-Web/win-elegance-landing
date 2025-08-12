@@ -24,7 +24,7 @@ export const LocationSection = () => {
     {
       icon: GraduationCap,
       title: "Escolas",
-      distance: "600m",
+      distance: "1,2km",
       description: "Educação de qualidade"
     },
     {

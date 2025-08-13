@@ -1,10 +1,10 @@
 import React from 'react';
-import torresImage from '../../assets/bg-torres.jpg';
+import torresImage from '../../assets/location-torres.png';
 
 export function TorresSection() {
   return (
     <section
-      className="relative w-full h-[60vh] flex items-center justify-center bg-cover bg-center"
+      className="relative w-full h-[100vh] flex items-center justify-center bg-cover bg-center"
       style={{ backgroundImage: `url(${torresImage})` }}
     >
       {/* Overlay escuro */}

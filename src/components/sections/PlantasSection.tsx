@@ -16,43 +16,43 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 const images = [
   {
     src: planta1,
-    title: 'Planta 1',
+    title: 'Rooftop (19° Pavimento)',
   },
   {
     src: planta2,
-    title: 'Planta 2',
+    title: 'Final 02 (Pavimento TIPO)',
   },
   {
     src: planta3,
-    title: 'Planta 3',
+    title: 'Final 03 (Pavimento TIPO)',
   },
   {
     src: planta4,
-    title: 'Planta 4',
+    title: 'Final 04 (Pavimento TIPO)',
   },
   {
     src: planta5,
-    title: 'Planta 5',
+    title: 'Final 01 (Pavimento TIPO)',
   },
   {
     src: planta7,
-    title: 'Planta 7',
+    title: 'Final 03 (4° Pavimento)',
   },
   {
     src: planta8,
-    title: 'Planta 8',
+    title: 'Final 04 (4° Pavimento)',
   },
   {
     src:  planta10,
-    title: 'Planta 10',
+    title: '2° Pavimento',
   },
   {
     src: planta11,
-    title: 'Planta 11',
+    title: 'Térreo',
   },
   {
     src: planta12,  
-    title: 'Planta 12',
+    title: '3° Pavimento',
   },
 ];
 

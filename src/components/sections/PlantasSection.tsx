@@ -43,17 +43,17 @@ const images = [
     title: 'Final 04 (4° Pavimento)',
   },
   {
+    src: planta12,
+    title: '3° Pavimento',
+  },
+  {
     src:  planta10,
     title: '2° Pavimento',
   },
   {
     src: planta11,
     title: 'Térreo',
-  },
-  {
-    src: planta12,  
-    title: '3° Pavimento',
-  },
+  }
 ];
 
 export function PlantasSection() {

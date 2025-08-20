@@ -19,7 +19,7 @@ const images = [
     title: 'Rooftop (19° Pavimento)',
   },
   {
-    src: planta5,
+    src: planta9,
     title: 'Final 01 (Pavimento TIPO)',
   },
   {
@@ -35,7 +35,7 @@ const images = [
     title: 'Final 04 (Pavimento TIPO)',
   },
   {
-    src: planta9,
+    src: planta5,
     title: 'Final 01 (4° Pavimento)',
   },
   {

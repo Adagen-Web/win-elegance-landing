@@ -125,7 +125,6 @@ export function PlantasSection() {
           <CarouselNext className="right-4 bg-white/10 border-white/20 text-white hover:bg-white/20" />
         </Carousel>
       </div>
-
     </div>
   );
 }
